@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+<!-- HEAD-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Gafee</title>
+</head>
+
+
+
+
+
+<!-- BODY-->
+<body>
+    <section id="section-1">
+    <div class="avatar-box">
+        <div class="avatar">
+            <div class="img-border">
+            <img src="Pictures/Avatar.jpg" alt="Profile Pictures">
+            </div>
+            <div class="avatar-text">
+            <h1 class="avatar-name">Avatar Name:</h1>
+            <div class="form-container">
+            <form id="nameForm">
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" required>
+                <button type="button" class="btn" onclick="insertName()">Insert Name</button>
+            </form>
+        </div>
+           </div>
+        </div>
+    </div>
+
+    <div class="goal-container">
+        <form id="goalForm">
+            <div class="goal-desc">
+                <label for="goal">Write your goal here:</label>
+                <textarea name="description" id="goal" cols="30" rows="10" oninput="adjustSize()"></textarea>
+            </div>
+        </form>
+    </div>
+    </section>
+
+
+    <section id="section-2">
+
+        <div class="main-container">
+        
+            <div class="question">
+                <h1 class="q-question">Please choose  how much you would like to use our app?</h1>
+               <form id="multipleChoiceForm">
+                    <div class="answer">
+                      <label>
+                        <input type="radio" name="answer" value="optionA"> Option A
+                      </label>
+                      <label>
+                        <input type="radio" name="answer" value="optionB"> Option B
+                      </label>
+                      <label>
+                        <input type="radio" name="answer" value="optionC"> Option C
+                      </label>
+                      <label>
+                        <input type="radio" name="answer" value="optionD"> Option D
+                      </label>
+                    </div>
+                
+                    <button type="submit" class="btn">Submit</button>
+                  </form>
+            </div>
+
+            <div class="question">
+                <h1 class="q-question">Please choose  how much you would like to use our app?</h1>
+               <form id="multipleChoiceForm">
+                    <div class="answer">
+                      <label>
+                        <input type="radio" name="answer" value="optionA"> Option A
+                      </label>
+                      <label>
+                        <input type="radio" name="answer" value="optionB"> Option B
+                      </label>
+                      <label>
+                        <input type="radio" name="answer" value="optionC"> Option C
+                      </label>
+                      <label>
+                        <input type="radio" name="answer" value="optionD"> Option D
+                      </label>
+                    </div>
+                
+                    <button type="submit" class="btn">Submit</button>
+                  </form>
+            </div>
+
+        </div>
+
+
+
+
+
+    </section>
+
+    <section id="section-3">
+      
+      <h1 id="main-h1" class="s3-adjust">Questions</h1>
+      <div class="main-container">
+        <div class="s3-mini-container">
+
+          <form id="multipleChoiceForm">
+            <div class="answer-s3">
+              <label>
+                <input type="radio" name="answer" value="optionA"> Option A
+              </label>
+              <label>
+                <input type="radio" name="answer" value="optionB"> Option B
+              </label>
+              <label>
+                <input type="radio" name="answer" value="optionC"> Option C
+              </label>
+              <label>
+                <input type="radio" name="answer" value="optionD"> Option D
+              </label>
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+      <div class="line-1"></div>
+      <div class="line-2"></div>
+      <div class="line-3"></div>
+     </div>
+
+    </section>
+    <div class="image">
+      <img src="Pictures/Arrow.png" alt="Next Page" class="next-page">
+    </div>
+
+
+
+
+</body>
+
+
+
+<!-- End-->
+
+</html>
